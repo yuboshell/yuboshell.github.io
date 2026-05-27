@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am Yubo Huang. I was born in Shanxi, China, in 1998. I received my B.S. degree from [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2020. I received my M.Eng. degree from [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2023. I received my M.Sc. degree from [Laurentian University](https://laurentian.ca/) in 2025.
+I am Yubo Huang. I was born in Xinzhou, Shanxi, China, in 1998. I received my B.S. degree from [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2020. I received my M.Eng. degree from [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2023. I received my M.Sc. degree from [Laurentian University](https://laurentian.ca/) in 2025.
 
 [//]: # (advised by Prof. [Zhaofeng He]&#40;https://scholar.google.ca/citations?user=JUz2KfAAAAAJ&hl=en&oi=sra&#41;, Prof. [Peipei Li]&#40;https://scholar.google.com/citations?user=A0khpKYAAAAJ&hl=en&#41;, and Prof. [Liuyu Xiang]&#40;https://scholar.google.ca/citations?hl=en&user=Ve82AEsAAAAJ&view_op=list_works&sortby=pubdate&#41;.)
 
