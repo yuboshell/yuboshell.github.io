@@ -66,20 +66,19 @@
 \renewcommand\Large{\@setfontsize\Large{12pt}{18}}
 \renewcommand\large{\@setfontsize\large{11pt}{18}}
 
-% mainfont: XCharter
-\IfFontExistsTF{XCharter}{
-    \setmainfont{XCharter}
-}{
-    \setmainfont{XCharter}[ % in case XCharter is not installed
-        Path = ./fonts/,
-        Extension = .otf,
-        BoldFont = XCharter-Bold,
-        ItalicFont = XCharter-Italic,
-        BoldItalicFont = XCharter-BoldItalic,
-        BoldSlantedFont = XCharter-BoldSlanted,
-        SlantedFont = XCharter-Slanted,
-    ]
-}
+% mainfont: XCharter — always load the bundled .otf. The system/TeXLive
+% "XCharter" lookup is unreliable (triggers a failing mktextfm), and the
+% upright file is XCharter-Roman.otf (not XCharter.otf), so name it explicitly.
+\setmainfont{XCharter}[
+    Path = ./fonts/,
+    Extension = .otf,
+    UprightFont = XCharter-Roman,
+    BoldFont = XCharter-Bold,
+    ItalicFont = XCharter-Italic,
+    BoldItalicFont = XCharter-BoldItalic,
+    BoldSlantedFont = XCharter-BoldSlanted,
+    SlantedFont = XCharter-Slanted,
+]
 
 % heading font: Avenir Next
 \IfFontExistsTF{Avenir Next LT Pro}{
