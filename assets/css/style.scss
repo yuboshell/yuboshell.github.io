@@ -43,3 +43,8 @@
   .topnav a,
   .topnav a:hover { color: rgb(62, 183, 240); }
 }
+
+/* Email links: clickable but rendered in the default text colour (not link
+   blue), inheriting so they adapt in both light and dark mode. */
+.email-link,
+.email-link:hover { color: inherit; }

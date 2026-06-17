@@ -14,7 +14,7 @@ layout: homepage
 
 As a technology nerd, I love trading ideas with curious people and sharing the engineering skills and thinking I have picked up along the way. I am happy to mentor you hands-on until you are up to speed. If this project interests you, or you would simply like to collaborate, please do not hesitate to get in touch.
 
-Reach me at <a href="mailto:yubo16@ualberta.ca">yubo16@ualberta.ca</a>.
+Reach me at <a class="email-link" href="mailto:yubo16@ualberta.ca">yubo16@ualberta.ca</a>.
 
 ### Background
 
