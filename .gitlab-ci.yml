@@ -1,0 +1,25 @@
+# GitLab Pages deployment for the Jekyll homepage.
+#
+# Serves at https://huangyubo.gitlab.io/ when the project is named exactly
+# "huangyubo.gitlab.io" and Pages "Use unique domain" is turned off.
+#
+# The build mirrors the locally-validated plain-Jekyll build (no github-pages
+# meta-gem, no plugins). LC_ALL is set so Jekyll handles the UTF-8 Chinese
+# characters in the site (黄昱博) instead of erroring on an ASCII locale.
+image: ruby:3.4
+
+variables:
+  JEKYLL_ENV: production
+  LANG: C.UTF-8
+  LC_ALL: C.UTF-8
+
+pages:
+  stage: deploy
+  script:
+    - bundle install
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'

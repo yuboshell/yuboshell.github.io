@@ -1,20 +1,17 @@
 source "https://rubygems.org"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+# Plain Jekyll build — host-agnostic (works on GitLab CI, Cloudflare Pages, and
+# local `bundle exec jekyll serve`). The site uses no Jekyll plugins and its
+# theme lives in-repo under _sass/, so the github-pages meta-gem is not needed.
 #
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-# gem "jekyll", "~> 3.8.5"
-
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
-
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", group: :jekyll_plugins
-
+# Note: GitHub Pages' own legacy builder ignores this Gemfile and uses its
+# internal gem set, so removing github-pages here does NOT affect the GitHub
+# deployment when that account is reinstated.
+gem "jekyll", "~> 4.3"
 gem "webrick", "~> 1.8"
+
+# Ruby 3.4 dropped these from the default gem set; Jekyll's dependencies expect them.
+gem "csv"
+gem "base64"
+gem "logger"
+gem "bigdecimal"
