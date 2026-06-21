@@ -42,6 +42,13 @@ How can high-fidelity motion capture leave the studio? The answer here is a full
   <figcaption>Human pose estimation by SMPL fitting. Multi-view 2D keypoints from MMPose are triangulated across the eleven views, then refined by SMPL fitting with silhouette supervision. SMPL is a parametric body model, a fallback used only because no model-free alternative exists yet for human bodies.</figcaption>
 </figure>
 
+### Demo 3: IMU motion capture (reproduction of GlobalPose)
+
+<figure class="mc-demo">
+  <video src="./assets/videos/imu-mocap.mp4" autoplay loop muted playsinline controls preload="metadata"></video>
+  <figcaption>A reproduction of <a href="https://github.com/Xinyu-Yi/GlobalPose">GlobalPose</a> (Yi et al., SIGGRAPH 2025), which recovers full-body motion from six body-worn IMUs with physics-based global motion estimation. Left, the subject wearing the inertial sensors; right, the reconstructed body, shown here at its T-pose calibration. This is a different modality from the camera rig above, a wearable inertial setup rather than multi-view video, included to show breadth; the method and code are the original authors', not mine.</figcaption>
+</figure>
+
 ### Resources
 
 A two-page visual summary, with the full pipeline and references, is available as a [PDF work summary](/assets/files/Motion_Capture_and_3D_Reconstruction_Work_Summary.pdf). The code lives in [Motion-Capture](https://gitlab.com/huangyubo/Motion-Capture), covering calibration, reconstruction, and pose, with a companion app, Argus, handling synchronization.
