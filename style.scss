@@ -81,12 +81,9 @@ h1 {
   margin-right: 0px;
 }
 
-// Chinese name subtitle inside the H1.
+// Chinese name inline beside the English, same size (Jiayi Weng style).
 .name-zh {
-  display: block;
-  margin-top: 0.25rem;
-  font-size: 0.6em;
-  color: #555;
+  margin-left: 0.35em;
 }
 
 .header-subtitle {
