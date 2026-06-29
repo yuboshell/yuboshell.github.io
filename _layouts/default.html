@@ -41,6 +41,7 @@
     <tr style="padding:0px">
       <td style="padding:0px">
 
+        {% if page.path == "index.md" %}
         <!-- Header: name + photo + links row -->
         <table class="header-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
@@ -90,6 +91,9 @@
             </td>
           </tr>
         </table>
+        {% else %}
+        <p class="topnav" style="text-align:center; margin:0.4rem 0 1rem;"><a href="/">&larr; Home</a></p>
+        {% endif %}
 
         <!-- Page content -->
         {{ content }}
