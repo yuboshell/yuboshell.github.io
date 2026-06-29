@@ -9,7 +9,7 @@ title: Home
 
 <h2>About Me</h2>
 <p style="margin-top:10px;">
-I am Yubo Huang. I was born in Xinzhou, Shanxi, China, in 1998. I received my B.S. degree from <a href="https://www.bupt.edu.cn/" target="_blank" rel="noopener">Beijing University of Posts and Telecommunications</a> in 2020. I received my M.Eng. degree from <a href="https://www.bupt.edu.cn/" target="_blank" rel="noopener">Beijing University of Posts and Telecommunications</a> in 2023.
+I am Yubo Huang. I was born in Xinzhou, Shanxi, China, in 1998. I received my B.S. (2020) and M.Eng. (2023) degrees from <a href="https://www.bupt.edu.cn/" target="_blank" rel="noopener">Beijing University of Posts and Telecommunications</a>.
 </p>
 
     </td>

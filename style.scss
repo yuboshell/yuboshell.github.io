@@ -117,8 +117,7 @@ span.highlight {
 // Research / project rows on the homepage.
 .project-image {
   width: 160px;
-  height: 160px;
-  object-fit: contain;
+  height: auto;
   border-radius: 6px;
 }
 
