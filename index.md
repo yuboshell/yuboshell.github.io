@@ -31,11 +31,6 @@ I am Yubo Huang. I was born in Xinzhou, Shanxi, China, in 1998. I received my B.
       <p class="project-meta">
       A fully mobile, markerless motion-capture rig of eleven synchronized smartphones for high-fidelity 3D reconstruction in the wild, with cattle reconstruction, human pose, and IMU motion-capture demos.
       </p>
-      <p class="linkblock">
-        <a href="/motion-capture.html">project page</a> /
-        <a href="/assets/files/Motion_Capture_and_3D_Reconstruction_Work_Summary.pdf" target="_blank" rel="noopener">work summary</a> /
-        <a href="https://gitlab.com/huangyubo/Motion-Capture" target="_blank" rel="noopener">code</a>
-      </p>
     </td>
   </tr>
   <tr class="proj-row">
@@ -46,9 +41,6 @@ I am Yubo Huang. I was born in Xinzhou, Shanxi, China, in 1998. I received my B.
       <h3><a href="https://yuboshell.github.io/led-sync-panel/report.html" target="_blank" rel="noopener">LED Timecode Panel</a></h3>
       <p class="project-meta">
       A DIY LED timecode panel that stamps a per-frame binary code into every camera's view, for measuring multi-camera synchronization to sub-millisecond precision (the capture rig behind the Pixel-7 sync-evaluation project).
-      </p>
-      <p class="linkblock">
-        <a href="https://yuboshell.github.io/led-sync-panel/report.html" target="_blank" rel="noopener">build report</a>
       </p>
     </td>
   </tr>
