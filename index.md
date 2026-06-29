@@ -12,10 +12,6 @@ title: Home
 I am Yubo Huang. I was born in Xinzhou, Shanxi, China, in 1998. I received my B.S. degree from <a href="https://www.bupt.edu.cn/" target="_blank" rel="noopener">Beijing University of Posts and Telecommunications</a> in 2020. I received my M.Eng. degree from <a href="https://www.bupt.edu.cn/" target="_blank" rel="noopener">Beijing University of Posts and Telecommunications</a> in 2023.
 </p>
 
-<p>
-<strong style="font-weight:600">I am actively looking for a Ph.D. position in computer vision and artificial intelligence in Canada. Please feel free to contact me if you are interested.</strong>
-</p>
-
     </td>
   </tr>
 </table>
