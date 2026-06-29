@@ -38,6 +38,20 @@ I am Yubo Huang. I was born in Xinzhou, Shanxi, China, in 1998. I received my B.
       </p>
     </td>
   </tr>
+  <tr class="proj-row">
+    <td class="proj-img" style="padding:1% 2.5%;width:25%;vertical-align:middle;min-width:120px">
+      <a href="https://yuboshell.github.io/led-sync-panel/report.html" target="_blank" rel="noopener"><img src="./assets/img/led-timecode.jpg" alt="LED Timecode Panel" class="project-image" /></a>
+    </td>
+    <td class="proj-text" style="padding:1% 2.5%;width:75%;vertical-align:middle">
+      <h3><a href="https://yuboshell.github.io/led-sync-panel/report.html" target="_blank" rel="noopener">LED Timecode Panel</a></h3>
+      <p class="project-meta">
+      A DIY LED timecode panel that stamps a per-frame binary code into every camera's view, for measuring multi-camera synchronization to sub-millisecond precision (the capture rig behind the Pixel-7 sync-evaluation project).
+      </p>
+      <p class="linkblock">
+        <a href="https://yuboshell.github.io/led-sync-panel/report.html" target="_blank" rel="noopener">build report</a>
+      </p>
+    </td>
+  </tr>
 </table>
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">

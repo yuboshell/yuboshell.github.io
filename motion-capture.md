@@ -3,6 +3,8 @@ layout: default
 title: Motion Capture & 3D Reconstruction
 ---
 
+<p style="margin:0.4rem 0 0.8rem;"><a href="/">&larr; Home</a></p>
+
 <style>
 .mc-body { padding: 0 2.5%; }
 .mc-body h2 { margin-top: 1.2rem; }
